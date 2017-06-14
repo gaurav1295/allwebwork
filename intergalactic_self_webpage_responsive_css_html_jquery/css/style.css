@@ -1,0 +1,125 @@
+body{
+  background:rgba(23, 32, 42,1);
+}
+.circle{
+/*   background:white; */
+  position:relative;
+  padding:0px;
+  width:50px;
+  height:450px;
+ 
+  border-top:25px solid rgba(218, 247, 166,1) ;
+  border-bottom:25px solid rgba(218, 247, 166,1) ;
+  border-left:1px solid rgba(218, 247, 166,.3) ;
+  border-right:1px solid rgba(218, 247, 166,.3) ;
+  border-radius:100%;
+  margin:auto; 
+  animation:circleani 30s infinite; rgba(218, 247, 166,1)
+  animation-timing-function:ease;
+  z-index:-1;
+}
+
+.circle1{
+  position:absolute;
+  padding:0px;
+  width:50px;
+  height:380px;
+  top:5%;
+  left:47%;
+  border-top:30px solid #A0E25D ;
+  border-bottom:30px solid #A0E25D ;
+  border-left:1px solid #17202A ;
+  border-right:1px solid rgba(213, 219, 219,.3) ;
+  border-radius:100%;
+  margin:auto; 
+  transform:rotate(40deg);
+/*   animation:circleai1 30s infinite; rgba(218, 247, 166,1)
+  animation-timing-function:ease-in-out; */
+}
+
+
+.insidestuff{
+  position:relative;
+  padding:0px;
+  width:300px;
+  height:300px;
+  
+  border-top:1px solid rgba(218, 247, 166,1) ;
+  border-bottom:1px solid rgba(218, 247, 166,1) ;
+  border-left:1px solid rgba(213, 219, 219,.3) ;
+  border-right:1px solid rgba(213, 219, 219,.3) ;
+  border-radius:100%;
+  margin:auto; 
+  top:-50%;
+   
+
+}
+
+@keyframes circleani{
+  0%{
+    transform:rotate(0deg);
+  }
+  50%{
+    transform:rotate(480deg);
+  }
+  100%{
+    transform:rotate(-360deg);
+  }
+}
+
+/* @keyframes circleani1{
+  0%{
+    transform:rotate(0deg);
+  }
+  50%{
+    transform:rotate(-480deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+ */
+
+
+/* .circle::before{
+  position:absolute;
+  content:"";
+  top:-20px;
+  right:-10px;
+  left:-22px;
+  bottom:-10px;
+  margin:0px;
+  padding:0px;
+  width:110%;
+  height:110%;
+   */
+/*   border:1px solid rgb(255, 195, 0) ;  */
+/*   border-top:1px solid rgb(255, 195, 0);
+   border-left:1px solid RGB(0, 255, 255);
+   border-right:1px solid RGB(0, 255, 255); */
+/*   border-radius:100%;
+  z-index:1;
+  transform:scale(1.05);
+  
+}
+ */
+/* .circle::after{
+  position:absolute;
+  top:-6px;
+  right:-5px;
+  left:-6px;
+  bottom:-5px;
+  content:"";
+  margin:0px;
+  padding:0px;
+  width:103%;
+  height:103%;
+  border-radius:50%;
+  border:5px solid red ;
+  border-bottom:1px solid rgba(213, 219, 219,.3);
+   border-left:1px solid rgba(213, 219, 219,.3);
+   border-right:1px solid rgba(213, 219, 219,.3);
+  z-index:-1;
+  
+}
+ */
